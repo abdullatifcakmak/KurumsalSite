@@ -1,0 +1,479 @@
+/*--------Header kısmı--------*/
+.navbar {
+  width: 80%;
+  margin: auto;
+  border-radius: 20px;
+}
+
+.navbar-nav {
+  display: flex;
+}
+
+.navbar-text {
+  color: white;
+}
+
+.logo {
+  margin-left: 10%;
+}
+
+.logo img {
+  width: 150px;
+}
+
+.social-box img {
+  width: 35px;
+}
+
+.logo,
+.ust-menu {
+  display: flex;
+}
+
+.social-box {
+  display: flex;
+  margin-right: 10%;
+  margin-top: 40px;
+}
+.social-box img {
+  padding-left: 3px;
+}
+
+.number a {
+  text-decoration: none;
+  color: black;
+}
+
+.number a:hover {
+  color: blueviolet;
+}
+
+.strip {
+  background-color: blueviolet;
+  width: 100%;
+  height: 300px;
+  position: absolute;
+  z-index: -1;
+  top: 125px;
+}
+
+.strip2 {
+  background-color: blueviolet;
+  width: 100%;
+  height: 150px;
+  position: absolute;
+  z-index: -1;
+  top: 125px;
+}
+
+.basliklar {
+  display: flex;
+  align-items: center;
+  margin: 30px 0 0 100px;
+  position: relative;
+}
+
+.alt-baslik {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: -1;
+}
+
+.ust-baslik {
+  position: relative;
+  margin-left: 20px;
+  color: white;
+}
+
+/*--------Main kısmı--------*/
+
+#carouselExampleIndicators {
+  width: 70%;
+  margin: auto;
+  top: 50px;
+  border: 7px solid wheat;
+  box-shadow: 0px 30px 10px rgba(0, 0, 0, 0.1);
+}
+
+#carouselExampleIndicators:hover {
+  border: 7px solid brown;
+  transition: 0.5s;
+}
+
+.bolum1 {
+  margin-top: 200px;
+  flex: 2;
+  margin-right: 20px;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+.bolum2 {
+  margin-top: 200px;
+  border-bottom: 1px solid #ccc;
+  flex: 1;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+}
+
+.content img {
+  max-width: 100%;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  border: 3.5px solid wheat;
+  border-radius: 10px;
+}
+
+.content img:hover {
+  border: 3.5px solid brown;
+  transition: 0.5s;
+  border-radius: 10px;
+}
+
+.container2 {
+  width: 70%;
+  display: flex;
+  margin: auto;
+}
+
+.container2 a {
+  text-decoration: none;
+  color: black;
+}
+
+.bolum3,
+.bolum4,
+.bolum5 {
+  flex: 1;
+  margin: 10px;
+  padding: 15px;
+  margin-bottom: 200px;
+  border-bottom: 1px solid #ccc;
+}
+
+.bolum3,
+.bolum4 {
+  border-right: 1px solid #ccc;
+}
+
+.bolum1,
+.bolum2,
+.bolum3,
+.bolum4,
+.bolum5 {
+  font-size: 13px;
+}
+.bolum1 h1,
+.bolum2 h1,
+.bolum3 h1,
+.bolum4 h1,
+.bolum5 h1 {
+  font-size: medium;
+  font-weight: bold;
+}
+
+.paragraflar {
+  display: flex;
+
+  width: 70%;
+  margin-top: 120px;
+  margin-bottom: 100px;
+  margin-left: 15%;
+  font-size: 14px;
+}
+
+.paragraflar img {
+  border: 3px solid wheat;
+  border-radius: 5px;
+  margin-right: 20px;
+  margin-top: 0;
+  height: 244px;
+}
+.paragraflar img:hover {
+  border: 3px solid brown;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+.card {
+  margin-top: 120px;
+  width: 250px;
+  border: 4px solid gray;
+}
+.card-text {
+  border-top: 1px solid gray;
+}
+.card:hover {
+  border: 2px solid brown;
+}
+
+.iletisim-bilgileri,
+.formlar {
+  margin-top: 120px;
+  margin-bottom: 200px;
+  width: 70%;
+}
+
+.formlar input,
+.formlar textarea {
+  width: 350px;
+  background-color: yellowgreen;
+  padding: 10px;
+  margin: 5px;
+  border: 2px solid gray;
+  border-radius: 7px;
+}
+
+::placeholder {
+  color: black;
+}
+
+.formlar textarea {
+  height: 100px;
+}
+
+.form-container {
+  margin-left: 15%;
+}
+.maps iframe {
+  width: 80%;
+  height: 400px;
+  margin-bottom: 100px;
+  margin-left: 10%;
+  border: 1px solid black;
+}
+
+.button-form {
+  color: yellowgreen;
+  background-color: gray;
+  border-radius: 7px;
+  border: none;
+  width: 100px;
+  height: 35px;
+}
+
+/*--------Footer kısmı--------*/
+
+.sub-text {
+  display: flex;
+  gap: 400px;
+  color: white;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  width: 100%;
+  background: linear-gradient(to bottom, blueviolet, gray);
+  padding: 10px 0;
+  height: 70px;
+  z-index: -1;
+}
+
+.author {
+  text-decoration: none;
+  color: white;
+}
+
+/*-------- Responsive Kısımlar --------*/
+
+@media (max-width: 1200px) {
+  .navbar {
+    width: 90%;
+  }
+
+  .social-box {
+    margin-right: 5%;
+  }
+
+  #carouselExampleIndicators {
+    width: 90%;
+  }
+
+  .container2 {
+    width: 90%;
+    flex-direction: column;
+  }
+
+  .bolum1,
+  .bolum2,
+  .bolum3,
+  .bolum4,
+  .bolum5 {
+    margin-top: 20px;
+    border-right: none;
+  }
+
+  .bolum1 {
+    margin-right: 0;
+  }
+
+  .content {
+    flex-direction: column;
+  }
+
+  .content img {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    width: 100%;
+  }
+
+  .navbar-nav {
+    flex-direction: column;
+  }
+
+  .logo {
+    margin-left: 0;
+  }
+
+  .social-box {
+    margin-right: 0;
+    margin-top: 20px;
+  }
+
+  .strip,
+  .strip2 {
+    height: 200px;
+    top: 100px;
+  }
+
+  .basliklar {
+    margin: 10px 0 0 50px;
+  }
+
+  #carouselExampleIndicators {
+    width: 100%;
+  }
+
+  .container2 {
+    width: 100%;
+  }
+
+  .bolum1,
+  .bolum2,
+  .bolum3,
+  .bolum4,
+  .bolum5 {
+    font-size: 11px;
+  }
+
+  .paragraflar {
+    width: 90%;
+    margin: 60px auto;
+    font-size: 12px;
+  }
+
+  .card {
+    width: 100%;
+    margin-top: 60px;
+  }
+
+  .iletisim-bilgileri,
+  .formlar {
+    width: 90%;
+  }
+
+  .form-container {
+    margin-left: 5%;
+  }
+
+  .maps iframe {
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .sub-text {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  footer {
+    flex-direction: column;
+    height: auto;
+    padding: 20px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar-nav {
+    align-items: center;
+  }
+
+  .social-box {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo img {
+    width: 100px;
+  }
+
+  .social-box img {
+    width: 30px;
+  }
+
+  .strip,
+  .strip2 {
+    height: 150px;
+    top: 75px;
+  }
+
+  .basliklar {
+    margin: 10px 0 0 20px;
+  }
+
+  .container2 {
+    flex-direction: column;
+  }
+
+  .bolum1,
+  .bolum2,
+  .bolum3,
+  .bolum4,
+  .bolum5 {
+    font-size: 10px;
+  }
+
+  .paragraflar {
+    width: 100%;
+    margin: 30px auto;
+  }
+
+  .card {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .iletisim-bilgileri,
+  .formlar {
+    width: 100%;
+  }
+
+  .form-container {
+    margin-left: 0;
+  }
+
+  .maps iframe {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .button-form {
+    width: 80px;
+    height: 30px;
+  }
+
+  footer {
+    padding: 10px 0;
+  }
+}
